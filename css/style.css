@@ -1,0 +1,292 @@
+/* Global-style */
+body {
+  font-family: "Poppins", sans-serif;
+  /* ini biar ga scroll kanan kiri */
+  overflow-x: hidden;
+}
+.batas{
+  border-bottom :1px solid #9093A6;
+}
+
+.btn-abu{
+  background-color:#F2F4FA;
+  color: #9093A6 ;
+  --bs-btn-hover-color: var(--bs-#3F4255);
+  --bs-btn-hover-bg: #D4D7E5;
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  
+}
+.btn-order{
+  border-color: #ffe145;
+  border-width: 3px;
+  margin-right: 30px;
+  justify-content: center;
+  width: 150px;
+}
+
+.btn-order:hover{
+  background-color: #ffe145;
+  justify-content: center;
+  width: 150px;
+}
+
+.btn-order .h1{
+  font-size: 16px;
+  font-display: bold;
+  justify-content: center;
+}
+
+.btn-order .p{
+  font-size: 12px;
+}
+.navbar-top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-top li {
+  font-size: 12px;
+  padding-left: 30px;
+}
+
+.navbar-brand {
+  padding-top: 0px;
+}
+
+/* SLICK */
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  /* opacity: .2; */
+}
+
+/* .slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+} */
+
+/* SECTION-HERO */
+
+.section-hero .caption {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 58px;
+}
+
+.section-hero .caption .btn {
+  align-self: flex-start;
+}
+
+.section-hero .banner {
+  margin-right: -200px;
+}
+
+.section-hero .banner img {
+  width: 85%;
+}
+
+/* SECTION CLIENT */
+.section-client {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.section-client .caption-client {
+  padding-right: 30px;
+}
+.section-client .logo-client-grid .logo-item {
+  padding: 20px;
+}
+
+.section-client .logo-client-grid .logo-item img {
+  width: 100%;
+}
+
+.resto{
+  font-size: 36px;
+  color:#3F4255;
+  ;
+}
+
+.section-search{
+  background-color:#F2F4FA;
+}
+.section-search .caption {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+  width: 70%;
+}
+
+.search-top{
+  font-size: 36px;
+  color: #3F4255;
+}
+
+.search-bottom{
+  font-size: 16px;
+  color: #3F4255;
+}
+
+.search-form{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input{
+  gap: 1%;
+}
+
+.form1 {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  
+}
+
+.instagram{
+  margin-top: 3%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+.text-right{
+  font-size: 36px;
+  color: #313030;
+}
+.text-left{
+  font-size: 36px;
+  color: #9093A6;
+}
+
+.bg{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 5%;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-around;
+}
+
+.teks-biasa {
+  text-decoration: none; 
+  color: white;
+  margin-bottom: 1rem;
+}
+.items{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  height: 437px;
+  background-color: #3F4255;
+  width: 100%;
+}
+
+.footer-top{
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bag{
+  height: 100%;
+  margin-top: 30px;
+}
+.bag1{
+  height: 100%;
+}
+.bag1 img{
+  width: 150px;
+}
+.bag1 .logo-apps img{
+  width: 80px;
+}
+
+.foot-title{
+  font-size: 24px;
+  font-weight: bold;
+}
+.foot-sub{
+  font-size: 16px;
+  color: #D4D7E5;
+}
+
+
+.footer-bottom{
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+}
+.logo-sosmed img{
+  width: 30px;
+  margin: 5px;
+}
+.footer-bottom-right{
+  margin-right: 0%;
+}
+.footer-bottom-right p{
+  size: 12px;
+  display: inline-block;
+  margin-right: 5%;
+  margin-left: auto;
+}
+/* Mobile */
+@media (max-width: 768px) {
+  .section-hero .banner {
+    margin-right: 0px;
+  }
+
+  .section-hero .banner img {
+    width: 100%;
+  }
+
+  .section-hero .caption {
+    padding-top: 50px;
+  }
+}
